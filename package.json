@@ -1,0 +1,22 @@
+{
+  "name": "readme-project",
+  "version": "1.0.0",
+  "description": "readme 파일을 자동으로 꾸며주는 웹사이트를 만듭니다.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyeongrok1/readme-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyeongrok1/readme-project/issues"
+  },
+  "homepage": "https://github.com/Hyeongrok1/readme-project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
