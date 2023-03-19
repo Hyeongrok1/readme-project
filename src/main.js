@@ -1,11 +1,10 @@
-const express = require('express');
+const express = require("express");
 const app = express();
+const indexRouter = require("./router/index.js");
+const template = require("./lib/template.js");
 
+app.use("/", indexRouter);
 
-app.listen(8080, function() {
-    console.log('listening on 8080')
-})
-
-app.get('/', function(req, res) {
-    res.send("Hello World!");
+app.listen(8080, function () {
+  console.log("listening on 8080");
 });
